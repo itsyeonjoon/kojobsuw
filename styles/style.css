@@ -1,0 +1,16 @@
+:root {
+    --white: #ffffff;
+    --uw-purple: #4B2E83;
+    --kojobs-gray: #505050; 
+    --gold: #A49E87; 
+    --light-gold: #B7A57A; 
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-size {
+    size: 12px; 
+}
+

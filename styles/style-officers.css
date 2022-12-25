@@ -1,0 +1,21 @@
+:root {
+    --white: #ffffff;
+    --uw-purple: #4B2E83;
+    --kojobs-gray: #505050; 
+    --gold: #A49E87; 
+    --light-gold: #B7A57A; 
+}
+
+.headings {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.page-title {
+    background-color: var(--kojobs-gray); 
+    padding: 42px; 
+    font-size: 42px; 
+}
+
+.white {
+    color: var(--white); 
+}

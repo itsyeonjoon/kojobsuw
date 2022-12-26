@@ -1,0 +1,27 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Executive Officers",
+    "year": "2022-23",
+    "officers": [
+        {
+            "name": "노문균",
+            "role": "President",
+            "email": "moon9@uw.edu" 
+        },
+        {
+            "name": "장현영",
+            "role": "Vice President",
+            "email": "hyjang@uw.edu" 
+        },
+        {
+            "name": "김소정",
+            "role": "Advisor",
+            "email": "janisk2@uw.edu" 
+        },
+        {
+            "name": "김연수",
+            "role": "Secretary",
+            "email": "yskim01@uw.edu" 
+        }
+    ]
+}

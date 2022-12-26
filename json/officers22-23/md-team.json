@@ -1,0 +1,42 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Marketing & Design Team",
+    "year": "2022-23",
+    "officers": [
+        {
+            "name": "이유진",
+            "role": "Team Director",
+            "email": "eujeal@uw.edu"
+        },
+        {
+            "name": "강다은",
+            "role": "Manager",
+            "email": "judykang@gmail.com"
+        },
+        {
+            "name": "이예진",
+            "role": "Social Media Caption Writer",
+            "email": "loe2000@uw.edu" 
+        },
+        {
+            "name": "이한범",
+            "role": "Illustrator",
+            "email": "hanbeom@uw.edu" 
+        },
+        {
+            "name": "양정윤",
+            "role": "Illustrator",
+            "email": "jyy01@uw.edu" 
+        },
+        {
+            "name": "윤현서",
+            "role": "Video Editor",
+            "email": "hyoon719@uw.edu" 
+        },
+        {
+            "name": "허유경",
+            "role": "Video Editor",
+            "email": "yh0215@uw.edu"
+        }
+    ]
+}

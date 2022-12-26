@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     load_pm_team(); 
     load_prd_team();
     load_md_team(); 
-  });
+});
 
 
 /* 

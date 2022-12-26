@@ -6,12 +6,20 @@
     --light-gold: #B7A57A; 
 }
 
+body {
+    margin:0px;
+}
+
 .headings {
     font-family: 'Encode Sans', sans-serif;
 }
 
+.lknlink {
+    color: var(--gold); 
+}
+
 main {
-    padding: 42px;
+    padding: 42px 72px;
 }
 
 .officer {
@@ -30,7 +38,7 @@ main {
 
 .page-title {
     background-color: var(--kojobs-gray); 
-    padding: 42px; 
+    padding: 42px 72px; 
     font-size: 42px; 
 }
 

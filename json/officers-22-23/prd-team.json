@@ -6,47 +6,56 @@
         {
             "name": "김채영",
             "role": "Team Director",
-            "email": "kcy046@uw.edu"
+            "email": "kcy046@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/jennifer-c-kim/"
         },
         {
             "name": "박정호",
             "role": "Manager",
-            "email": "jhpark26@gmail.com"
+            "email": "jhpark26@gmail.com",
+            "linkedin": "none"
         },
         {
             "name": "김건희",
             "role": "Reachout Committee Lead",
-            "email": "gkim3@uw.edu" 
+            "email": "gkim3@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "김지훈",
             "role": "Reachout Committee",
-            "email": "jikim97@uw.edu" 
+            "email": "jikim97@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "김세은",
             "role": "Reachout Committee",
-            "email": "sk13@uw.edu" 
+            "email": "sk13@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "서세민",
             "role": "Reachout Committee",
-            "email": "stacey45@uw.edu" 
+            "email": "stacey45@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "정연준",
             "role": "Web Development Team Lead",
-            "email": "yjung19@uw.edu"
+            "email": "yjung19@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/yj-jung/"
         },
         {
             "name": "윤장원",
             "role": "Web Developer",
-            "email": "jyun1998@uw.edu"
+            "email": "jyun1998@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "조유빈",
             "role": "Web Developer",
-            "email": "yubinc@uw.edu" 
+            "email": "yubinc@uw.edu",
+            "linkedin": "none"
         }
     ]
 }

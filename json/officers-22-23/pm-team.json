@@ -6,52 +6,62 @@
         {
             "name": "김보관",
             "role": "Team Director",
-            "email": "kim0917@uw.edu"
+            "email": "kim0917@uw.edu",
+            "linkedin": "http://linkedin.com/in/bokwan-kim-676089158"
         },
         {
             "name": "이용정",
             "role": "Manager",
-            "email": "yongjunglee98@gmail.com"
+            "email": "yongjunglee98@gmail.com",
+            "linkedin": "none"
         },
         {
             "name": "조민형",
             "role": "Coordinator",
-            "email": "choeric@uw.edu" 
+            "email": "choeric@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "임수진",
             "role": "Presentation & Scriptwriter",
-            "email": "limsujin@uw.edu" 
+            "email": "limsujin@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "이선영",
             "role": "Presentation & Scriptwriter",
-            "email": "seonyl@uw.edu" 
+            "email": "seonyl@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "김수아",
             "role": "Presentation & Scriptwriter",
-            "email": "sk258@uw.edu" 
+            "email": "sk258@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "여해인",
             "role": "Presentation & Scriptwriter",
-            "email": "hy87@uw.edu"
+            "email": "hy87@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "이제현",
             "role": "Treasurer",
-            "email": "jl3564@uw.edu"
+            "email": "jl3564@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/jehyunlee/"
         },
         {
             "name": "원혜수",
             "role": "Treasure Executive",
-            "email": "whs7774@uw.edu" 
+            "email": "whs7774@uw.edu",
+            "linkedin": "none"
         },
         {
             "name": "이윤서",
             "role": "Treasure Executive",
-            "email": "yunseol1@uw.edu" 
+            "email": "yunseol1@uw.edu",
+            "linkedin": "none"
         }
     ]
 }

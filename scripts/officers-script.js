@@ -45,6 +45,13 @@ function load_members(officers_list, jsonfile) {
                 officer.appendChild(role);
                 officer.appendChild(email);
 
+                let linkedinLink = data.officers[i].linkedin;
+                if (linkedinLink != "none") {
+                    let lkn = document.createElement('div');
+                    lkn.innerHTML += `<a class="lknlink" href="${linkedinLink}"><b>LinkedIn</b></a>`;
+                    officer.appendChild(lkn);
+                }
+
                 officers_list.appendChild(officer); 
             }
         })

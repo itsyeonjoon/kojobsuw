@@ -10,10 +10,37 @@
     font-family: 'Encode Sans', sans-serif;
 }
 
+main {
+    padding: 42px;
+}
+
+.officer {
+    font-size: 20px;
+    width: 33%; 
+    margin-bottom: 32px; 
+}
+
+.officers-list {
+    margin-left: 12%; 
+    margin-top: 36px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
 .page-title {
     background-color: var(--kojobs-gray); 
     padding: 42px; 
     font-size: 42px; 
+}
+
+section {
+    margin-bottom: 60px; 
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold; 
 }
 
 .white {

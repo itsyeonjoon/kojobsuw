@@ -5,11 +5,13 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     load_representatives();
-    load_hrs_team(); 
-    load_pm_team(); 
+    load_hrs_team();
+    load_pm_team();
     load_prd_team();
-    load_md_team(); 
+    load_md_team();
 });
+
+$("#header").load("./header.html");
 
 
 /* 
@@ -34,14 +36,14 @@ function load_members(officers_list, jsonfile, attribute) {
                 officer.setAttribute("class", attribute);
 
                 let name = document.createElement('div'); 
-                name.innerHTML += `<b>${data.officers[i].name}</b>`; 
+                name.innerHTML += `<b>${data.officers[i].name}</b>`;
                 name.setAttribute("class", "officer-text");
 
-                let role = document.createElement('div'); 
-                role.innerHTML += `Role: <b>${data.officers[i].role}</b>`; 
+                let role = document.createElement('div');
+                role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
                 role.setAttribute("class", "officer-text");
 
-                let email = document.createElement('div'); 
+                let email = document.createElement('div');
                 email.innerHTML += `Email: <b>${data.officers[i].email}</b>`;
                 email.setAttribute("class", "officer-text");
 
@@ -57,7 +59,7 @@ function load_members(officers_list, jsonfile, attribute) {
                     officer.appendChild(lkn);
                 }
 
-                officers_list.appendChild(officer); 
+                officers_list.appendChild(officer);
             }
         })
 } 
@@ -71,9 +73,9 @@ function load_members(officers_list, jsonfile, attribute) {
 */
 function load_representatives() {
     let officers_list = document.getElementById("representative-officers");
-    let jsonfile = '../json/officers-22-23/representatives.json'; 
+    let jsonfile = '../json/officers-22-23/representatives.json';
       
-    load_members(officers_list, jsonfile, "officer-representatives"); 
+    load_members(officers_list, jsonfile, "officer-representatives");
 }
 
 /* 
@@ -85,9 +87,9 @@ function load_representatives() {
 */
 function load_hrs_team() {
     let officers_list = document.getElementById("hrs-officers");
-    let jsonfile = '../json/officers-22-23/hrs-team.json';  
+    let jsonfile = '../json/officers-22-23/hrs-team.json';
       
-    load_members(officers_list, jsonfile, "officer"); 
+    load_members(officers_list, jsonfile, "officer");
 }
 
 /* 
@@ -99,9 +101,9 @@ function load_hrs_team() {
 */
 function load_pm_team() {
     let officers_list = document.getElementById("pm-officers");
-    let jsonfile = '../json/officers-22-23/pm-team.json';  
+    let jsonfile = '../json/officers-22-23/pm-team.json';
       
-    load_members(officers_list, jsonfile, "officer"); 
+    load_members(officers_list, jsonfile, "officer");
 }
 
 /* 
@@ -113,9 +115,9 @@ function load_pm_team() {
 */
 function load_prd_team() {
     let officers_list = document.getElementById("prd-officers");
-    let jsonfile = '../json/officers-22-23/prd-team.json';  
+    let jsonfile = '../json/officers-22-23/prd-team.json';
       
-    load_members(officers_list, jsonfile, "officer"); 
+    load_members(officers_list, jsonfile, "officer");
 }
 
 /* 
@@ -127,7 +129,7 @@ function load_prd_team() {
 */
 function load_md_team() {
     let officers_list = document.getElementById("md-officers");
-    let jsonfile = '../json/officers-22-23/md-team.json';  
+    let jsonfile = '../json/officers-22-23/md-team.json';
       
-    load_members(officers_list, jsonfile, "officer"); 
+    load_members(officers_list, jsonfile, "officer");
 }

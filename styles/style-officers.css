@@ -6,6 +6,7 @@
     --light-gold: #B7A57A; 
 }
 
+/* to remove margin in corners of website */
 body {
     margin:0px;
 }

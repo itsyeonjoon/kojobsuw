@@ -11,9 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
     load_md_team();
 });
 
-$("#header").load("./header.html");
-
-
 /* 
 * fetches a given jsonfile, reads its data, then creates div element for each officer. 
 * we include officer's name, role, and their email to be displayed. 

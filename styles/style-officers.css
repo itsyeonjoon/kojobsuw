@@ -10,6 +10,14 @@ body {
     margin:0px;
 }
 
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+
 .headings {
     font-family: 'Encode Sans', sans-serif;
 }
@@ -28,12 +36,22 @@ main {
     margin-bottom: 32px; 
 }
 
+.officer-representatives {
+    font-size: 20px;
+    width: 50%; 
+    margin-bottom: 32px; 
+}
+
 .officers-list {
     margin-left: 12%; 
     margin-top: 36px; 
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
+}
+
+.officer-text {
+    padding: 0% 5%; 
 }
 
 .page-title {
@@ -53,4 +71,12 @@ section {
 
 .white {
     color: var(--white); 
+}
+
+@media (max-width: 820px) {
+    .officer {
+        font-size: 18px;
+        width: 50%; 
+        margin-bottom: 32px; 
+    }
 }

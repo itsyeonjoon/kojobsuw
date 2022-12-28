@@ -1,0 +1,31 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Representatives",
+    "year": "2022-23",
+    "officers": [
+        {
+            "name": "노문균",
+            "role": "President",
+            "email": "moon9@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/"
+        },
+        {
+            "name": "장현영",
+            "role": "Vice President",
+            "email": "hyjang@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "김소정",
+            "role": "Senior Advisor",
+            "email": "janisk2@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "김연수",
+            "role": "Secretary",
+            "email": "yskim01@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0"
+        }
+    ]
+}

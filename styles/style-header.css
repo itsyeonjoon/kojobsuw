@@ -21,7 +21,7 @@ header {
 
 .nav {
     color: var(--white);
-    margin-left: 10%;
+    margin-left: 15%;
     display: flex;
     font-family: 'Encode Sans', sans-serif;
     align-items: center;
@@ -36,4 +36,8 @@ header {
 .nav li a {
     color: var(--white); 
     text-decoration: none;
+}
+
+.nav li:hover {
+    text-decoration: underline;  
 }

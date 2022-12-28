@@ -80,4 +80,38 @@ section {
         width: 50%; 
         margin-bottom: 32px; 
     }
+
+    .officer-representatives {
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .officer {
+        font-size: 14px;
+    }
+
+    .officer-representatives {
+        font-size: 14px;
+    }
+
+    .officer-text {
+        padding: 0%;
+        overflow-wrap:break-word;
+    }
+
+    main {
+        padding: 28px 40px;
+    }
+
+    .page-title {
+        padding: 28px 60px; 
+        font-size: 32px; 
+    }
+
+    .section-title {
+        text-align: center;
+    }
+    
 }

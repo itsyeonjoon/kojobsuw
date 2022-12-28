@@ -1,0 +1,83 @@
+:root {
+    --white: #ffffff;
+    --uw-purple: #4B2E83;
+    --kojobs-gray: #505050; 
+    --gold: #A49E87; 
+    --light-gold: #B7A57A; 
+}
+
+/* to remove margin in corners of website */
+body {
+    margin:0px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+
+.headings {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.lknlink {
+    color: var(--gold); 
+}
+
+main {
+    padding: 42px 72px;
+}
+
+.officer {
+    font-size: 20px;
+    width: 33%; 
+    margin-bottom: 32px; 
+}
+
+.officer-representatives {
+    font-size: 20px;
+    width: 50%; 
+    margin-bottom: 32px; 
+}
+
+.officers-list {
+    margin-left: 12%; 
+    margin-top: 36px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.officer-text {
+    padding: 0% 5%; 
+}
+
+.page-title {
+    background-color: var(--kojobs-gray); 
+    padding: 42px 72px; 
+    font-size: 42px; 
+}
+
+section {
+    margin-bottom: 60px; 
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+.white {
+    color: var(--white); 
+}
+
+@media (max-width: 820px) {
+    .officer {
+        font-size: 18px;
+        width: 50%; 
+        margin-bottom: 32px; 
+    }
+}

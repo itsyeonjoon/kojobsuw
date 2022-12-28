@@ -1,0 +1,49 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Human Resources & Statistics Team",
+    "year": "2022-23",
+    "officers": [
+        {
+            "name": "이세연",
+            "role": "Team Director",
+            "email": "seylee@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "조윤수",
+            "role": "Manager",
+            "email": "ycho65@gmail.com",
+            "linkedin": "none"
+        },
+        {
+            "name": "김지우",
+            "role": "Clerk",
+            "email": "jiwoo20@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "이진우",
+            "role": "Clerk",
+            "email": "jw1122@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "신은지",
+            "role": "Clerk",
+            "email": "eunjiii@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "박근우",
+            "role": "Statistician",
+            "email": "knu0815@uw.edu",
+            "linkedin": "none" 
+        },
+        {
+            "name": "박성희",
+            "role": "Statistician",
+            "email": "sxnghp@uw.edu",
+            "linkedin": "none"
+        }
+    ]
+}

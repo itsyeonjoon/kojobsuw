@@ -1,0 +1,43 @@
+:root {
+    --white: #ffffff;
+    --uw-purple: #4B2E83;
+    --dark-violet: #38265a; 
+    --kojobs-gray: #505050; 
+    --gold: #A49E87; 
+    --light-gold: #B7A57A; 
+}
+
+/* to remove margin in corners of website */
+body {
+    margin:0px;
+}
+
+header {
+    background-color: var(--dark-violet);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav {
+    color: var(--white);
+    margin-left: 15%;
+    display: flex;
+    font-family: 'Encode Sans', sans-serif;
+    align-items: center;
+}
+
+.nav li {
+    margin-left: 24px; 
+    list-style-type: none; 
+    font-size: 12px;
+}
+
+.nav li a {
+    color: var(--white); 
+    text-decoration: none;
+}
+
+.nav li:hover {
+    text-decoration: underline;  
+}

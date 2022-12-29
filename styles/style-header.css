@@ -1,7 +1,7 @@
 :root {
     --white: #ffffff;
     --uw-purple: #4B2E83;
-    --dark-violet: #38265a; 
+    --kojobs-purple: #38265a; 
     --kojobs-gray: #505050; 
     --gold: #A49E87; 
     --light-gold: #B7A57A; 
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: var(--dark-violet);
+    background-color: var(--kojobs-purple);
     display: flex; 
     justify-content: space-between; 
     align-items: center;

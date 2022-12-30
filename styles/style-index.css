@@ -48,7 +48,6 @@ body {
 
 #events-section {
     background-color: var(--kojobs-green);
-    height: 400px;
     padding: 0% 5%;
 }
 
@@ -147,7 +146,7 @@ section {
     }
 
     #events-section {
-        height: 550px; 
+        padding: 5%;
     }
 
     .images {
@@ -198,6 +197,10 @@ section {
     }
 
     #officers-section {
+        height: 400px;
+    }
+
+    #events-section {
         height: 400px;
     }
 }

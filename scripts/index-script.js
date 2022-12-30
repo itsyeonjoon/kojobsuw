@@ -2,6 +2,13 @@ window.onload=()=>{
     changeNavLink();
 }
 
+/* 
+* Changes the link that each nav items is associated to for index.html,
+* since all the other .html files are under /app/ folder.
+* 
+* parameters: none
+* return value: none
+*/
 function changeNavLink() {
 
     let item = Array.from(document.getElementsByClassName("home"));

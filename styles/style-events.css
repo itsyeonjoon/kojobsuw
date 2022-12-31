@@ -12,7 +12,10 @@
 
 .page-title {
     background-color: var(--kojobs-gray); 
-    padding: 42px; 
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: 12%;
+    padding-right: 12%;
     font-size: 42px;
     color: var(--white);
 }

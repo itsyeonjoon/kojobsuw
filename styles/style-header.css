@@ -40,6 +40,8 @@ button.membership {
 
 #hamburger-nav {
     display: none;
+    width: 100%;
+    margin: 0;
 }
 
 header {
@@ -89,6 +91,7 @@ header {
     font-family: 'Encode Sans', sans-serif;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .nav-ham li {
@@ -100,6 +103,7 @@ header {
 
 .nav-ham li a {
     color: var(--kojobs-purple);
+    padding-left: 32px;
     text-decoration: none;
 }
 
@@ -126,7 +130,7 @@ header {
     }
 
     .hamburger {
-        display: block;
+        display: unset;
     }
 
     .hamburger.active .bar:nth-child(2) {

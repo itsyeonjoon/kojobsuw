@@ -154,8 +154,9 @@ section {
     }
 
     .images-tablet {
+        width: 100%;
+        height: auto;
         margin-top: 30px;
-        height: 400px;
     }
 
     #join-us-section {
@@ -174,7 +175,7 @@ section {
 
     .section-text-container {
         text-align: center;
-        width: 92%;
+        width: 100%;
     }
 }
 

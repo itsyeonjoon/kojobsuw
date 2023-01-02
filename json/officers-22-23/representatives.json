@@ -7,25 +7,29 @@
             "name": "노문균",
             "role": "President",
             "email": "moon9@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/"
+            "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/",
+            "displayContact": "yes"
         },
         {
             "name": "장현영",
             "role": "Vice President",
             "email": "hyjang@uw.edu",
-            "linkedin": "none"
+            "linkedin": "none",
+            "displayContact": "yes"
         },
         {
             "name": "김소정",
             "role": "Senior Advisor",
             "email": "janisk2@uw.edu",
-            "linkedin": "none"
+            "linkedin": "none",
+            "displayContact": "yes"
         },
         {
             "name": "김연수",
             "role": "Secretary",
             "email": "yskim01@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0"
+            "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0",
+            "displayContact": "yes"
         }
     ]
 }

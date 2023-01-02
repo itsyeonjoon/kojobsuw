@@ -7,7 +7,8 @@
             "name": "김채영",
             "role": "Team Director",
             "email": "kcy046@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/jennifer-c-kim/"
+            "linkedin": "https://www.linkedin.com/in/jennifer-c-kim/",
+            "displayContact": "yes"
         },
         {
             "name": "박정호",

@@ -7,7 +7,8 @@
             "name": "이세연",
             "role": "Team Director",
             "email": "seylee@uw.edu",
-            "linkedin": "none"
+            "linkedin": "none",
+            "displayContact": "yes"
         },
         {
             "name": "조윤수",

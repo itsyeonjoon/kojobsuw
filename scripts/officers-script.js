@@ -40,13 +40,16 @@ function load_members(officers_list, jsonfile, attribute) {
                 role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
                 role.setAttribute("class", "officer-text");
 
-                let email = document.createElement('div');
-                email.innerHTML += `Email: <b>${data.officers[i].email}</b>`;
-                email.setAttribute("class", "officer-text");
-
                 officer.appendChild(name);
                 officer.appendChild(role);
-                officer.appendChild(email);
+                
+                let showContact = data.officers[i].displayContact;
+                if (showContact == "yes") {
+                    let email = document.createElement('div');
+                    email.innerHTML += `Email: <b>${data.officers[i].email}</b>`;
+                    email.setAttribute("class", "officer-text");
+                    officer.appendChild(email); 
+                }
 
                 let linkedinLink = data.officers[i].linkedin;
                 if (linkedinLink != "none") {

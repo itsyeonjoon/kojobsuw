@@ -1,7 +1,7 @@
 :root {
     --white: #ffffff;
     --uw-purple: #4B2E83;
-    --dark-violet: #38265a; 
+    --kojobs-purple: #38265a; 
     --kojobs-gray: #505050; 
     --gold: #A49E87; 
     --light-gold: #B7A57A; 
@@ -12,11 +12,52 @@ body {
     margin:0px;
 }
 
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+button.membership {
+    margin-right: 15%;
+    font: 14px;
+    padding: 8px 14px;
+    border: none;
+}
+
+.hamburger {
+    display: none;
+
+    cursor: pointer;
+    margin-top: 0;
+    background-color: var(--kojobs-purple);
+    border: none;
+}
+
+#hamburger-nav {
+    display: none;
+    width: 100%;
+    margin: 0;
+}
+
 header {
-    background-color: var(--dark-violet);
-    display: flex;
+    background-color: var(--kojobs-purple);
+    display: flex; 
     justify-content: space-between; 
     align-items: center;
+}
+
+#logo-max-780 {
+    display: none;
+}
+
+.membership {
+    background-color: var(--gold);
+    color: var(--white);
 }
 
 .nav {
@@ -40,4 +81,90 @@ header {
 
 .nav li:hover {
     text-decoration: underline;  
+}
+
+.nav-ham {
+    color: var(--kojobs-purple);
+    background-color: var(--wite);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Encode Sans', sans-serif;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-ham li {
+    list-style-type: none; 
+    padding: 20px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav-ham li a {
+    color: var(--kojobs-purple);
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+.nav-ham li:hover {
+    text-decoration: underline;  
+}
+
+.nav-ham-item {
+    width: 100%;
+}
+
+.nav-line {
+    color: var(--kojobs-purple);
+}
+
+.nav-membership {
+    background-color: var(--gold);
+}
+
+@media only screen and (max-width: 768px) {
+
+    button.membership {
+        display: none;
+    }
+
+    .hamburger {
+        display: unset;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    header {
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    #logo-max-780 {
+        display: unset;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    
 }

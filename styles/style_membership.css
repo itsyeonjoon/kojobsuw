@@ -1,0 +1,91 @@
+.page-title {
+  background-color: var(--kojobs-gray); 
+  padding: 42px 72px; 
+  font-size: 42px; 
+}
+
+.headings {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.white {
+  color: var(--white); 
+}
+
+
+.centered {
+  padding: 7% 23%;
+}
+
+.title {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: rgba(0, 0, 0, 1);
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Encode Sans", sans-serif;
+}
+
+.paragraph {
+    color: rgba(0, 0, 0, 1);
+    padding: 0% 10%;
+    font-size: 29.5px;
+    text-align: center;
+    font-family: "Encode Sans", sans-serif;
+}
+
+.gap {
+    height: 60px;
+  }
+
+/* .button {
+    display: inline;
+    width: 33%;
+    max-width: 210px;
+    margin-top: 10px;
+    border-radius: 60px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: rgba(164, 158, 135, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Encode Sans", sans-serif;
+    float: center;
+  } */
+
+.letter {
+    width: 34%;
+    text-align: center;
+    float:center;
+    font-size: 3vw;
+    font-family: "Encode Sans", sans-serif;
+    display: inline;   
+  }
+
+.barcode {
+    float:center;
+    text-align: center;
+    width: 15%;
+  }
+
+  .centerDiv
+  {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 90%; 
+    height:200px;
+    margin: 0 auto;
+  }
+
+
+  @media all and (max-width: 414px) {
+    .centered {
+      padding: 3% 1%;
+    }
+  }

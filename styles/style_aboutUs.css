@@ -1,0 +1,112 @@
+
+
+
+.centered {
+  padding: 3% 23%;
+}
+
+
+
+.page-title {
+  background-color: var(--kojobs-gray); 
+  padding: 42px 72px; 
+  font-size: 42px; 
+}
+
+
+.white {
+  color: var(--white); 
+}
+
+
+/* .padding {
+    width: 80%;
+    height: 80%;
+} */
+
+.title {
+    color: rgba(0, 0, 0, 1);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Encode Sans", sans-serif;
+}
+
+
+.paragraph {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24.5px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Encode Sans", sans-serif;
+}
+
+.paragraph2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 23px;
+    text-align: left;
+    font-family: "Encode Sans", sans-serif;
+}
+
+
+  .gap {
+    height: 40px;
+  }
+
+  .smallgap {
+    height: 8px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    max-width: 171px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 60px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: rgba(164, 158, 135, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: "Encode Sans", sans-serif;
+  }
+
+
+.divider {
+	position: relative;
+	padding-top: 40px;
+    padding-bottom: 40px;
+	height: 1px;
+  color:rgb(0, 0, 0);
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0%;
+	right: 0%;
+	width: 100%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.137), transparent);
+}
+
+@media all and (max-width: 414px) {
+  .centered {
+    padding: 3% 10%;
+  }
+}

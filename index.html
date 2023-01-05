@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | KOJOBS UW</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for jquery installation -->
+    <script> 
+        $(function(){
+        $("#header").load("app/header.html"); // need to fix
+        });
+    </script>
+    <script src="scripts/index-script.js"></script>
+</head>
+<body>
+    <!-- we include common header from header.html here -->
+    <div id="header"></div>
+
+    <div class="main-banner gap">
+        <img src="images/homepage/homepage_main.jpg" alt="Introducing KOJOBS" style="width:100%;">
+        <div class="centered text-center">
+            <h1 class="headings banner-headings white-text fade-in">KOJOBS UW</h1>
+            <p class="banner-text white-text fade-in">Korean Job Search | University of Washington</p>
+            <button id="learn-more-banner" class="fade-in"><a href="app/aboutUs.html" class="white-text a-none fade-in">LEARN MORE</a></button>
+        </div>
+    </div>
+
+    <section id="about-us-section" class="gap">
+        <div class="section-text-container">
+            <h1 class="section-text">About Us</h1>
+            <p class="section-text">
+                KOJOBS UW's purpose is to provide career related resources and opportunities
+                in the U.S. and South Korea, to build fruitful relationship between 
+                upperclassmen and underclassmen of all majors within the university, 
+                and to continuously network with professionals in the Greater Seattle Area.
+            </p>
+            <a class="section-text learn-more" href="app/aboutUs.html">Learn more...</a>
+        </div>
+        <img src="images/logo/kojobs-logo-color.png" alt="KOJOBS Logo" style="width:240px;">
+    </section>
+
+    <section id="join-us-section" class="gap">
+        <img src="images/homepage/join_us.jpg" alt="KOJOBS members talking" class="images">
+        <div class="section-text-container">
+            <h1 class="section-text">Join Us</h1>
+            <p class="section-text">
+                Having a KOJOBS UW membership means more opportunities. All events hosted by
+                KOJOBS UW are free for our members, and members receive priority in getting 
+                career / internship related information from us.<br>
+                <br>
+                Interested in joining us? Click below to learn more!
+            </p>
+            <a class="section-text learn-more revealUp" href="app/membership.html">Get membership here...</a>
+        </div>
+        <img src="images/homepage/join_us.jpg" alt="KOJOBS members talking" class="images-tablet">
+    </section>
+
+    <section id="events-section" class="gap">
+        <div class="section-text-container">
+            <h1 class="section-text">Events</h1>
+            <p class="section-text">
+                We host events to help UW students gain resources for 
+                both academic success and career opportunities.<br>
+                <br>
+                From our annual KONNECT event for underclassmen to learn
+                about various majors in the university to corporate seminars where
+                students receive advices from professionals working in Amazon, Google, 
+                Meta, and more, we seek to host events that could give both practical 
+                benefits and enjoy a fun campus life meeting new people.
+            </p>
+            <a class="section-text learn-more" href="app/events.html">See events...</a>
+        </div>
+        <img src="images/gen_meeting/DSC03466.JPG" alt="Gen Meeting 2022" class="images">
+        <img src="images/gen_meeting/DSC03466.JPG" alt="Gen Meeting 2022" class="images-tablet">
+    </section>
+
+    <section id="officers-section" class="gap">
+        <img src="images/officers/officers-21-22.jpg" alt="KOJOBS Officers Group Photo" class="images">
+        <div class="section-text-container">
+            <h1 class="section-text">Our Officers</h1>
+            <p class="section-text">
+                Meet our officers for 2022-23 academic year. Our officers consist of passionate
+                individuals who give all their energy to make our goal and purpose be possible.
+            </p>
+            <a class="section-text learn-more" href="app/officers.html">Learn more...</a>
+        </div>
+        <img src="images/officers/officers-21-22.jpg" alt="KOJOBS Officers Group Photo" class="images-tablet">
+
+    </section>
+
+</body>
+</html>

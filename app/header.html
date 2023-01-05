@@ -8,20 +8,39 @@
     <link rel="stylesheet" href="../styles/style-header.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap" rel="stylesheet">
+    <script src="../scripts/header-script.js"></script>
     <title>Header | KOJOBS UW</title>
 </head>
 <body>
     <header>
         
         <ul class="nav">
-            <li><img src="../images/logo/kojobs-logo-color.png" alt="KOJOBS Logo Color" style="width:52px;"></li>
-            <li>HOME</li>
-            <li>ABOUT US</li>
-            <li>EVENTS</li>
-            <li><a href="officers.html">OFFICERS</a></li>
-            <li>CONTACT US</li>
+            <li class="nav-item"><img src="../images/logo/kojobs-logo-color.png" alt="KOJOBS Logo Color" style="width:52px;"></li>
+            <li class="nav-item"><a class="home" href="../index.html">HOME</a></li>
+            <li class="nav-item"><a class="aboutUs" href="aboutUs.html">ABOUT US</a></li>
+            <li class="nav-item"><a class="events" href="events.html">EVENTS</a></li>
+            <li class="nav-item"><a class="officers" href="officers.html">OFFICERS</a></li>
+            <li onclick="scrollToBottom()">CONTACT US</li>
         </ul>
+        <button class="membership" onclick="location.href = 'membership.html';">MEMBERSHIP</button>
+        <img src="../images/logo/kojobs-logo-color.png" alt="KOJOBS Logo Color" style="width:52px;" id="logo-max-780">
+        <button class="hamburger" onclick="revealHamburgerNav()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
 
     </header>
+
+    <div id="hamburger-nav">
+        <ul class="nav-ham">
+            <li class="nav-ham-item"><a class="home" href="../index.html">HOME</a></li>
+            <li class="nav-ham-item"><a class="aboutUs" href="aboutUs.html">ABOUT US</a></li>
+            <li class="nav-ham-item"><a class="events" href="events.html">EVENTS</a></li>
+            <li class="nav-ham-item"><a class="officers" href="officers.html">OFFICERS</a></li>
+            <li class="nav-ham-item"><a>CONTACT US</a></li>
+            <li class="nav-ham-item nav-membership"><a class="membership" href="membership.html">MEMBERSHIP</a></li>
+        </ul>
+    </div>
 </body>
 </html>

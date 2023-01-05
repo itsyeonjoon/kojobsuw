@@ -1,0 +1,46 @@
+{
+    "rso": "KOJOBS UW",
+    "year": "2021-22",
+    "events": [
+        {
+            "name": "Kojobs Seminar",
+            "mainImg": "../../images/2021-2022/Kojobs_Seminar/Kojobs Seminar logo.png",
+            "subImg1": "../../images/2021-2022/Kojobs_Seminar/IMG_8626.jpg",
+            "subImg2": "../../images/2021-2022/Kojobs_Seminar/IMG_8627.jpg",
+            "text": "Kojobs held event to help students be connected to UW Alumni currently working in various industries.",
+            "date": "05/21/22"    
+        },
+        {
+            "name": "Kochinso",
+            "mainImg": "../../images/2021-2022/Kochinso/Kochinso_logo.png",
+            "subImg1": "../../images/2021-2022/Kochinso/IMG_1597.JPG",
+            "subImg2": "../../images/2021-2022/Kochinso/IMG_1598.JPG",
+            "text": "Kojobs held event that helped current non-major students to be connected to peers who are currently majoring in the various majors.",
+            "date": "04/30/22"  
+        },
+        {
+            "name": "Konnect",
+            "mainImg": "../../images/2021-2022/Konnect/Kojobs Konnect logo.png",
+            "subImg1": "../../images/2021-2022/Konnect/DSC02872.JPG",
+            "subImg2": "../../images/2021-2022/Konnect/DSC02905.JPG",
+            "text": "Kojobs held event that helped current non-major students to be connected to peers who are currently majoring in the various majors.",
+            "date": "03/04/22"   
+        },
+        {
+            "name": "Kojobs Game Night",
+            "mainImg": "../../images/2021-2022/Kojobs_Night/kojobs_night_poster.jpg",
+            "subImg1": "../../images/2021-2022/Kojobs_Night/DSC02702.JPG",
+            "subImg2": "../../images/2021-2022/Kojobs_Night/DSC02718.JPG",
+            "text": "Kojobs held Kojobs Night event to help students and members of Kojobs to make some connections, as well as promoting them to obtain friendships.",
+            "date": "10/23/21"    
+        },
+        {
+            "name": "General Meeting",
+            "mainImg": "../../images/2021-2022/gen_meeting_2021/general_meeting_poster.jpg",
+            "subImg1": "../../images/2021-2022/gen_meeting_2021/DSC02656.jpg",
+            "subImg2": "../../images/2021-2022/gen_meeting_2021/DSC02658.JPG",
+            "text": "Kojobs held General Meeting event to provide brief introduction of KOJOBS, what purpose it has, and introduced members of the organization.",
+            "date": "10/06/21"
+        }
+    ]
+}

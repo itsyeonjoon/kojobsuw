@@ -1,29 +1,20 @@
-.box {
-    display: flex;
-    flex-direction: row;
-    max-width: 2000px;
-    padding-top: 59px;
-    padding-bottom: 59px;
-    background-color: rgba(80, 80, 80, 1);
-  }
-
-.menuName {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 100px;
-    color: rgb(255, 254, 254);
-    font-size: 48px;
-    letter-spacing: 0%;
-    text-align: center;
-    font-family: "Open Sans", sans-serif;
+.page-title {
+  background-color: var(--kojobs-gray); 
+  padding: 42px 72px; 
+  font-size: 42px; 
 }
 
-.padding {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-right: 27em;
-    padding-left: 27em; 
+.headings {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.white {
+  color: var(--white); 
+}
+
+
+.centered {
+  padding: 7% 23%;
 }
 
 .title {
@@ -33,23 +24,22 @@
     font-size: 60px;
     font-weight: 600;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Encode Sans", sans-serif;
 }
 
 .paragraph {
     color: rgba(0, 0, 0, 1);
-    padding-left: 150px;
-    padding-right: 150px;
-    font-size: 30px;
+    padding: 0% 10%;
+    font-size: 29.5px;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Encode Sans", sans-serif;
 }
 
-.empty {
-    height: 100px;
+.gap {
+    height: 60px;
   }
 
-.button {
+/* .button {
     display: inline;
     width: 33%;
     max-width: 210px;
@@ -64,29 +54,38 @@
     font-size: 22px;
     letter-spacing: 0%;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
-    float: left;
-  }
+    font-family: "Encode Sans", sans-serif;
+    float: center;
+  } */
 
 .letter {
     width: 34%;
-    float:left;
-    font-size: 60px;
-    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    float:center;
+    font-size: 3vw;
+    font-family: "Encode Sans", sans-serif;
     display: inline;   
   }
 
 .barcode {
-    float:left;
-    width: 33%;
+    float:center;
+    text-align: center;
+    width: 15%;
   }
 
   .centerDiv
   {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     width: 90%; 
     height:200px;
     margin: 0 auto;
   }
 
 
-
+  @media all and (max-width: 414px) {
+    .centered {
+      padding: 3% 1%;
+    }
+  }

@@ -5,42 +5,49 @@
     "officers": [
         {
             "name": "이세연",
+            "english_name": "Seyeon Lee",
             "role": "Team Director",
             "email": "seylee@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "조윤수",
+            "english_name": "Yoonsoo Cho",
             "role": "Manager",
             "email": "ycho65@gmail.com",
             "linkedin": "none"
         },
         {
             "name": "김지우",
+            "english_name": "",
             "role": "Clerk",
             "email": "jiwoo20@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "이진우",
+            "english_name": "Adam Lee",
             "role": "Clerk",
             "email": "jw1122@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "신은지",
+            "english_name": "Eunji Shin",
             "role": "Clerk",
             "email": "eunjiii@uw.edu",
-            "linkedin": "none"
+            "linkedin": "https://www.linkedin.com/in/eunji-shin-660809260/"
         },
         {
             "name": "박근우",
+            "english_name": "Patrick Park",
             "role": "Statistician",
             "email": "knu0815@uw.edu",
             "linkedin": "none" 
         },
         {
             "name": "박성희",
+            "english_name": "Sunghee Park",
             "role": "Statistician",
             "email": "sxnghp@uw.edu",
             "linkedin": "none"

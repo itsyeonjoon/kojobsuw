@@ -5,54 +5,63 @@
     "officers": [
         {
             "name": "김채영",
+            "english_name": "Jennifer Kim",
             "role": "Team Director",
             "email": "kcy046@uw.edu",
             "linkedin": "https://www.linkedin.com/in/jennifer-c-kim/"
         },
         {
             "name": "박정호",
+            "english_name": "",
             "role": "Manager",
             "email": "jhpark26@gmail.com",
             "linkedin": "none"
         },
         {
             "name": "김건희",
+            "english_name": "Geonhee Kim",
             "role": "Reachout Committee Lead",
             "email": "gkim3@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "김지훈",
+            "english_name": "Jihoon Kim",
             "role": "Reachout Committee",
             "email": "jikim97@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "김세은",
+            "english_name": "",
             "role": "Reachout Committee",
             "email": "sk13@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "서세민",
+            "english_name": "Stacey Seo",
             "role": "Reachout Committee",
             "email": "stacey45@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "정연준",
+            "english_name": "Yeon Joon Jung",
             "role": "Web Development Team Lead",
             "email": "yjung19@uw.edu",
             "linkedin": "https://www.linkedin.com/in/yj-jung/"
         },
         {
             "name": "윤장원",
+            "english_name": "Jangwon Yun",
             "role": "Web Developer",
             "email": "jyun1998@uw.edu",
             "linkedin": "https://www.linkedin.com/in/jyun1998/"
         },
         {
             "name": "조유빈",
+            "english_name": "",
             "role": "Web Developer",
             "email": "yubinc@uw.edu",
             "linkedin": "none"

@@ -36,17 +36,25 @@ function load_members(officers_list, jsonfile, attribute) {
                 name.innerHTML += `<b>${data.officers[i].name}</b>`;
                 name.setAttribute("class", "officer-text");
 
+                let english_name = document.createElement('div'); 
+                english_name.innerHTML += `<b>${data.officers[i].english_name}</b>`;
+                english_name.setAttribute("class", "officer-text");
+
                 let role = document.createElement('div');
                 role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
                 role.setAttribute("class", "officer-text");
 
-                let email = document.createElement('div');
-                email.innerHTML += `Email: <b>${data.officers[i].email}</b>`;
-                email.setAttribute("class", "officer-text");
-
                 officer.appendChild(name);
+                officer.appendChild(english_name);
                 officer.appendChild(role);
-                officer.appendChild(email);
+
+                if (attribute == "officer-representatives") {
+                    let email = document.createElement('div');
+                    email.innerHTML += `Email: <b>${data.officers[i].email}</b>`;
+                    email.setAttribute("class", "officer-text");
+                    officer.appendChild(email);
+                }
+                
 
                 let linkedinLink = data.officers[i].linkedin;
                 if (linkedinLink != "none") {

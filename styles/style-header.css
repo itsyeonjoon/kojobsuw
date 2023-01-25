@@ -7,11 +7,44 @@
     --light-gold: #B7A57A; 
 }
 
-/* to remove margin in corners of website */
-body {
-    margin:0px;
+
+.navbar-custom {
+    background-color: var(--kojobs-purple);
+    font-size: 15px;
 }
 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler,
+.navbar-custom .navbar-text,
+.navbar-custom .navbar-nav .nav-item,
+.navbar-custom .navbar-nav .nav-link {
+    color: var(--white);
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    text-decoration: underline; 
+}
+
+.navbar > a{
+    margin-left:30px;
+}
+
+.navbar-nav > .nav-item {
+    margin-left:30px;
+}
+
+#membership {
+    background-color: var(--gold);
+    margin-right: 30px;
+    margin-left: 20px;
+}
+/*
 .bar {
     display: block;
     width: 25px;
@@ -24,14 +57,11 @@ body {
 
 button.membership {
     margin-right: 15%;
-    font: 14px;
-    padding: 8px 14px;
     border: none;
 }
 
 .hamburger {
     display: none;
-
     cursor: pointer;
     margin-top: 0;
     background-color: var(--kojobs-purple);
@@ -69,7 +99,7 @@ header {
 }
 
 .nav li {
-    margin-left: 24px; 
+    margin-left: 2em; 
     list-style-type: none; 
     font-size: 12px;
 }
@@ -80,7 +110,8 @@ header {
 }
 
 .nav li:hover {
-    text-decoration: underline;  
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .nav-ham {
@@ -123,7 +154,7 @@ header {
     background-color: var(--gold);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
 
     button.membership {
         display: none;
@@ -165,6 +196,5 @@ header {
     .nav-item {
         margin: 2.5rem 0;
     }
-
-    
 }
+*/

@@ -23,7 +23,7 @@
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 h3 {
@@ -40,6 +40,7 @@ h3 {
     flex-direction: column;
     align-items: center;
   }
+
 
 .sub-img {
     max-width: 50%;

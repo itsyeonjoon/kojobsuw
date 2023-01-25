@@ -51,7 +51,7 @@ function load_events(events_list, jsonfile, attribute) {
                 let main_img = document.createElement('img');
                 main_img.src = data.events[i].mainImg;
                 /*main_img.alt = data.events[i]*/
-                main_img.setAttribute("class", "img-fluid");
+                main_img.setAttribute("class", "img-fluid img-thumbnail");
 
                 /* This section is for event_detail, which fills up the details of the events*/
                 let detail = document.createElement('p')

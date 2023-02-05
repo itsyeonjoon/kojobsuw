@@ -3,11 +3,11 @@
     "year": "2022-23",
     "events": [
         {
-            "name": "Konnect",
+            "name": "KO:NNECT",
             "mainImg": "../../images/2022-2023/konnect/konnect_poster.jpg",
             "subImg1": "../../images/2022-2023/konnect/DSC03573.JPG",
             "subImg2": "../../images/2022-2023/konnect/DSC03586.JPG",
-            "text": "Kojobs held event that helped current non-major students to be connected to peers who are currently majoring in the various majors.",
+            "text": "Mentoring program that matches pre-major underclassmen with upperclassmen in the desired major. Professionally organized event to assist students with academic and career guidance while allowing to network with peer students in the same field.",
             "date": "11/18/22"    
         },
         {
@@ -15,7 +15,7 @@
             "mainImg": "../../images/2022-2023/gen_meeting/general_meeting_poster.JPG",
             "subImg1": "../../images/2022-2023/gen_meeting/DSC03524.JPG",
             "subImg2": "../../images/2022-2023/gen_meeting/DSC03466.JPG",
-            "text": "Kojobs held General Meeting event to provide brief introduction of KOJOBS, what purpose it has, and introduced members of the organization.",
+            "text": "Introduction to our student organization at the beginning of the school year. Presented our visions and goals, upcoming events, organizational structure, and officer members.",
             "date": "10/11/22"    
         }
     ]

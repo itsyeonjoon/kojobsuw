@@ -1,3 +1,9 @@
+$(window).resize(function() {
+    if ($(window).width() >= 769) {
+        revealHamburgerNav(); 
+    }
+  });
+
 let hamburgerDisplay = false;
 
 /* 

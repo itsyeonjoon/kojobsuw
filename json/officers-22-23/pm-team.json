@@ -5,60 +5,70 @@
     "officers": [
         {
             "name": "김보관",
+            "english_name": "Eric Kim",
             "role": "Team Director",
             "email": "kim0917@uw.edu",
             "linkedin": "http://linkedin.com/in/bokwan-kim-676089158"
         },
         {
             "name": "이용정",
+            "english_name": "",
             "role": "Manager",
             "email": "yongjunglee98@gmail.com",
             "linkedin": "none"
         },
         {
             "name": "조민형",
+            "english_name": "Eric Cho",
             "role": "Coordinator",
             "email": "choeric@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "임수진",
+            "english_name": "",
             "role": "Presentation & Scriptwriter",
             "email": "limsujin@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "이선영",
+            "english_name": "Seonyeong Lee",
             "role": "Presentation & Scriptwriter",
             "email": "seonyl@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "김수아",
+            "english_name": "Suah Kim",
             "role": "Presentation & Scriptwriter",
             "email": "sk258@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "여해인",
+            "english_name": "Haein Yeo",
             "role": "Presentation & Scriptwriter",
             "email": "hy87@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "이제현",
+            "english_name": "Je Hyun Lee",
             "role": "Treasurer",
             "email": "jl3564@uw.edu",
             "linkedin": "https://www.linkedin.com/in/jehyunlee/"
         },
         {
             "name": "원혜수",
+            "english_name": "",
             "role": "Treasure Executive",
             "email": "whs7774@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "이윤서",
+            "english_name": "Lucas Lee",
             "role": "Treasure Executive",
             "email": "yunseol1@uw.edu",
             "linkedin": "none"

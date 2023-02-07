@@ -5,45 +5,59 @@
     "officers": [
         {
             "name": "이유진",
+            "english_name": "Eujean Lee",
             "role": "Team Director",
             "email": "eujeal@uw.edu",
             "linkedin": "https://www.linkedin.com/in/eujean-lee-b2316b1bb"
         },
         {
             "name": "강다은",
+            "english_name": "Judy Kang",
             "role": "Manager & Photographer",
             "email": "judykang@gmail.com",
             "linkedin": "none"
         },
         {
             "name": "이예진",
+            "english_name": "",
             "role": "Social Media Caption Writer",
             "email": "loe2000@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "이한범",
+            "english_name": "Hanbeom Lee",
             "role": "Illustrator",
             "email": "hanbeom@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "양정윤",
+            "english_name": "Jenny Yang",
             "role": "Illustrator",
             "email": "jyy01@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "윤현서",
+            "english_name": "Sean Yoon",
             "role": "Video Editor",
             "email": "hyoon719@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "허유경",
+            "english_name": "Yugyeong Her",
             "role": "Video Editor",
             "email": "yh0215@uw.edu",
             "linkedin": "none"
+        },
+        {
+            "name": "강준하",
+            "english_name": "Joonha Kang",
+            "role": "",
+            "email": "kangj21@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/joonha-kang-213214226/"
         }
     ]
 }

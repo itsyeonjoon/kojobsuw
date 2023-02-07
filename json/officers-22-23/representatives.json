@@ -5,24 +5,28 @@
     "officers": [
         {
             "name": "노문균",
+            "english_name": "Moongyun Noh",
             "role": "President",
             "email": "moon9@uw.edu",
             "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/"
         },
         {
             "name": "장현영",
+            "english_name": "HyunYoung Jang",
             "role": "Vice President",
             "email": "hyjang@uw.edu",
-            "linkedin": "none"
+            "linkedin": "https://www.linkedin.com/in/hyjang9406/"
         },
         {
             "name": "김소정",
+            "english_name": "Janis Kim",
             "role": "Senior Advisor",
             "email": "janisk2@uw.edu",
             "linkedin": "none"
         },
         {
             "name": "김연수",
+            "english_name": "Anna Kim",
             "role": "Secretary",
             "email": "yskim01@uw.edu",
             "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0"

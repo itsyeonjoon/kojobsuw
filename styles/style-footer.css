@@ -23,10 +23,10 @@ h4 {
 }
 
 .fa {
-    font-family: 'Open Sans', sans-serif;
     padding-top: 10%;
     color: var(--white);
     font-size: 1vw !important;
+    font-size: 30px;
     display: inline;
 }
 
@@ -34,12 +34,21 @@ ul {
     padding-left: 10%;
 }
 
-li {
+.contact_us li {
     list-style-type: none;
     text-decoration: none;
 }
 
+.contact_us li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
 .fa:hover {
+    text-decoration: underline;
+}
+
+.contact_us li a:hover {
     text-decoration: underline;
 }
 

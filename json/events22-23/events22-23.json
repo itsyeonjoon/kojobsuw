@@ -3,6 +3,14 @@
     "year": "2022-23",
     "events": [
         {
+            "name": "KoKoBowl",
+            "mainImg": "../../images/2022-2023/kokobowl/kokobowl_IG.jpg",
+            "subImg1": "../../images/2022-2023/kokobowl/kokobowl_sub_1.jpg",
+            "subImg2": "../../images/2022-2023/kokobowl/kokobowl_sub_2.jpg",
+            "text": "Continued networking event from KO:NNECT event to allow students to start networking peer colleagues within the same major. Held event in HUB Bowling Alley to play bowling and games to enhance bonding with students.",
+            "date": "01/27/23"    
+        },
+        {
             "name": "KO:NNECT",
             "mainImg": "../../images/2022-2023/konnect/konnect_poster.jpg",
             "subImg1": "../../images/2022-2023/konnect/DSC03573.JPG",

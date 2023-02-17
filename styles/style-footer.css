@@ -17,7 +17,7 @@ footer {
 h4 {
     font-family: 'Open Sans', sans-serif;
     color: var(--white);
-    font-size: 2vw;
+    font-size: 3vw;
     margin-top: 10%;
     font-weight: lighter;
 }
@@ -26,7 +26,6 @@ h4 {
     padding-top: 10%;
     color: var(--white);
     font-size: 1vw !important;
-    font-size: 30px;
     display: inline;
 }
 
@@ -42,6 +41,7 @@ ul {
 .contact_us li a {
     text-decoration: none;
     color: var(--white);
+    font-size: 1vw;
 }
 
 .fa:hover {
@@ -64,7 +64,7 @@ ul {
 }
 
 #copyright {
-    margin-top: 13%;
+    margin-top: 20%;
     font-size:0.5vw;
     text-align: center;
 }

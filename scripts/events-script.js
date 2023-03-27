@@ -31,13 +31,13 @@ function load_events(events_list, jsonfile, attribute) {
                 event.setAttribute("class", attribute);
 
                 let event_title = document.createElement('div');
-                event_title.setAttribute("class", "col");
-
-                let event_detail_section = document.createElement('div');
-                event_detail_section.setAttribute("class", "col-8 media");
+                event_title.setAttribute("class", "col-lg-4");
 
                 let event_detail = document.createElement('div');
-                event_detail.setAttribute("class", "media-body");
+                event_detail.setAttribute("class", "col-lg-8");
+
+               // let event_detail = document.createElement('div');
+               // event_detail.setAttribute("class", "media-body");
 
                 /* This codes are to create title section*/
                 let title = document.createElement('h3'); 
@@ -59,11 +59,11 @@ function load_events(events_list, jsonfile, attribute) {
 
                 let sub_img1 = document.createElement('img');
                 sub_img1.src = data.events[i].subImg1;
-                sub_img1.setAttribute("class", "sub-img float-left");
+                sub_img1.setAttribute("class", "sub-img");
                 
                 let sub_img2 = document.createElement('img');
                 sub_img2.src = data.events[i].subImg2;
-                sub_img2.setAttribute("class", "sub-img float-right");
+                sub_img2.setAttribute("class", "sub-img");
 
 
                 event_title.appendChild(title);
@@ -74,10 +74,10 @@ function load_events(events_list, jsonfile, attribute) {
                 event_detail.appendChild(sub_img1);
                 event_detail.appendChild(sub_img2);
 
-                event_detail_section.appendChild(event_detail);
+                //event_detail_section.appendChild(event_detail);
 
                 event.appendChild(event_title);
-                event.appendChild(event_detail_section);
+                event.appendChild(event_detail);
                 
                 events_list.appendChild(event);
             }

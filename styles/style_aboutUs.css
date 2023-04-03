@@ -1,12 +1,3 @@
-
-
-
-.centered {
-  padding: 3% 23%;
-}
-
-
-
 .page-title {
   background-color: var(--kojobs-gray); 
   padding: 42px 72px; 
@@ -14,99 +5,288 @@
 }
 
 
-.white {
-  color: var(--white); 
+.gold_bar {
+  margin-bottom: 3.7rem;
+  width: 6.7rem;
+  height: 0.65rem;
+  background-color: #85754d;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.gold_bar_centered {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.page_setting {
+  box-sizing: border-box;
+  padding-bottom: 18.3033rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
 }
 
 
-/* .padding {
-    width: 80%;
-    height: 80%;
-} */
 
-.title {
-    color: rgba(0, 0, 0, 1);
-    font-size: 40px;
-    font-weight: 600;
-    text-align: center;
-    font-family: "Encode Sans", sans-serif;
+.column_form {
+  margin: 2.3rem 8.4rem 5.9rem 0rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.about_title {
+  display: flex;
+  margin-bottom: 1.2rem;
+  max-width: 14.9rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.description {
+  display: flex;
+  max-width: 38rem;
+  font-size: 1.26rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+
+}
+
+.page_setting .Various_Events {
+  padding-bottom: 1px;
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.vertical_form {
+  align-items: center;
+  text-align: center;
+  padding: 7rem 0rem 0rem 0rem;
+
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.event_title {
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #635531;
+  font-family: Uni Sans, 'Source Sans Pro';
+}
+
+.event_desctiption {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #635531;
+  font-family: Open Sans, 'Source Sans Pro';
+}
+
+ .page_padding {
+  padding: 5rem 0rem 0rem 15rem;
+  padding-bottom: 15rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;  
+  margin: 0 auto;
 }
 
 
-.paragraph {
-    color: rgba(0, 0, 0, 1);
-    font-size: 24.5px;
-    text-align: left;
-    line-height: 1.5;
-    font-family: "Encode Sans", sans-serif;
+.centerDiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height:0px;
+  margin: 0 auto;
+  
 }
 
-.paragraph2 {
-    color: rgba(0, 0, 0, 1);
-    font-size: 23px;
-    text-align: left;
-    font-family: "Encode Sans", sans-serif;
+.letter {
+  width: 34%;
+  text-align: center;
+  float:center;
+  font-size: 3vw;
+  font-family: "Encode Sans", sans-serif;
+  display: inline;   
+}
+
+.barcode {
+  float:center;
+  text-align: center;
+  width: 15%;
+}
+
+.about_image {
+  text-align: center;
+  width: 55%;
+}
+
+.image_attatch {
+  padding: 15rem 0rem 0rem 0rem;
+  position: relative;
+  
+  
+}
+
+image_adjustable {
+  position: fixed;
+  overflow: hidden;
+  background: "../assets/img8627-2-bg.png"
 }
 
 
-  .gap {
-    height: 40px;
+.centered_membership {
+  padding: 15rem 0rem 0rem 0rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+
+  text-align: center;
+  justify-content: center;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #ffffff;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.page_setting .membership_title {
+  padding-bottom: 1px;
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.3625;
+  color: #000000;
+  font-family: Open Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+.membership_desctiption {
+  padding-bottom: 30px;
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 10;
+  line-height: 1.4;
+  color: #ffffff;
+  font-family: Open Sans, 'Source Sans Pro';
+}
+
+@media screen and (max-width: 1600px) {
+ .page_padding {
+    padding: 0rem 0rem 10rem 0rem;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1252px) {
+  .centerDiv {
+    padding-top: 53rem;
+    padding-bottom: 58rem;;
+    flex-direction: column;
+
   }
 
-  .smallgap {
-    height: 8px;
+  .vertical_form {
+    width: 100%;
+  }
+}
+
+
+
+@media screen and (max-width: 958px) {
+  
+  
+  .page_padding {
+    padding: 0rem 0rem 10rem 0rem;
+    flex-direction: column;
   }
 
-  .center {
+  .column_form {
+    margin: 2.3rem 3rem 5.9rem 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-shrink: 0;
   }
 
-
-  .button {
+  .description {
+    max-width: 100%;
     display: flex;
-    flex-direction: row;
-    max-width: 171px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    border-radius: 60px;
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
-    padding-left: 16px;
-    background-color: rgba(164, 158, 135, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 22px;
-    letter-spacing: 0%;
-    text-align: center;
-    font-family: "Encode Sans", sans-serif;
+  }
+  
+  .about_image {
+    margin: 0rem 6rem 3rem 0rem;
+    width: 100%;
   }
 
 
-.divider {
-	position: relative;
-	padding-top: 40px;
-    padding-bottom: 40px;
-	height: 1px;
-  color:rgb(0, 0, 0);
-}
+  
+  .centerDiv {
+    padding-top: 53rem;
+    padding-bottom: 60rem;;
+    flex-direction: column;
 
-.div-transparent:before
-{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0%;
-	right: 0%;
-	width: 100%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.200), transparent);
-}
-
-@media all and (max-width: 414px) {
-  .centered {
-    padding: 3% 10%;
   }
+
+  .vertical_form {
+    width: 100%;
+  }
+
+
+
+  .image_attatch {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+
+
+  .centered_membership {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .page_setting .membership_title {
+    padding: 100rem 0rem 10rem 3rem;
+  }
+
+
+  .membership_desctiption {
+    padding-bottom: 30px;
+    display: flex;
+    font-size: 1.15rem;
+    font-weight: 10;
+    line-height: 1.4;
+  }
+
+
+
 }

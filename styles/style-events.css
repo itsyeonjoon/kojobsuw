@@ -8,7 +8,8 @@
 
 .headings {
     font-family: 'Encode Sans', sans-serif;
-    font-size: 4vw;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .page-title {
@@ -23,7 +24,7 @@
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 
 h3 {
@@ -50,9 +51,21 @@ h3 {
     padding-left: 0.5em;
 }
 
-.media {
-    align-items: center;
+
+@media (max-width: 1000px) {
+    .sub-img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+        padding: 0.5em;
+    }
+    p {
+        padding: 0.5em;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+    }
 }
+
 
 .row {
     background-color: #ffffff;

@@ -95,7 +95,7 @@ function load_2021_2022_events() {
     let events_list = document.getElementById("21-22-events");
     let jsonfile = '../json/events21-22/events21-22.json';
       
-    load_events(events_list, jsonfile, "row");
+    load_events(events_list, jsonfile, "row event_list");
 }
 
 /* 
@@ -109,5 +109,5 @@ function load_2022_2023_events() {
     let events_list = document.getElementById("22-23-events");
     let jsonfile = '../json/events22-23/events22-23.json';
       
-    load_events(events_list, jsonfile, "row");
+    load_events(events_list, jsonfile, "row event_list");
 }

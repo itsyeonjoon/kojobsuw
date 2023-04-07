@@ -135,6 +135,8 @@
   display: inline;   
 }
 
+
+
 .barcode {
   float:center;
   text-align: center;
@@ -143,7 +145,7 @@
 
 .about_image {
   text-align: center;
-  width: 55%;
+  width: 100%;
 }
 
 .image_attatch {
@@ -204,8 +206,14 @@ image_adjustable {
 
 @media screen and (max-width: 1600px) {
  .page_padding {
-    padding: 0rem 0rem 10rem 0rem;
-    flex-direction: column;
+    font-size: 3.3rem;
+  }
+
+  .description {
+    display: flex;
+    max-width: 38rem;
+    font-size: 1.26rem;
+  
   }
 }
 
@@ -214,12 +222,16 @@ image_adjustable {
     padding-top: 53rem;
     padding-bottom: 58rem;;
     flex-direction: column;
-
   }
 
   .vertical_form {
     width: 100%;
   }
+
+  .about_image {
+  }
+
+
 }
 
 

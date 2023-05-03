@@ -3,6 +3,14 @@
     "year": "2022-23",
     "events": [
         {
+            "name": "Study Session",
+            "mainImg": "../../images/2022-2023/study_session/study_session_logo.jpg",
+            "subImg1": "../../images/2022-2023/study_session/study_session_1.jpg",
+            "subImg2": "../../images/2022-2023/study_session/study_session_2.jpeg",
+            "text": "Hosted study session for KOJOBS members to study together for the exam, while making connections with each other.",
+            "date": "04/25/23"    
+        },
+        {
             "name": "Career Workshop",
             "mainImg": "../../images/2022-2023/career_workshop/career_workshop_logo.jpg",
             "subImg1": "../../images/2022-2023/career_workshop/career_workshop_1.jpg",

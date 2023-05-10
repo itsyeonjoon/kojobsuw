@@ -8,28 +8,32 @@
             "english_name": "Moongyun Noh",
             "role": "President",
             "email": "moon9@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/"
+            "linkedin": "https://www.linkedin.com/in/moongyun-steve-noh-a76b13162/",
+            "picture": "../../images/officers/profile-pic/노문균.jpeg"
         },
         {
             "name": "이유진",
             "english_name": "Eujean Lee",
             "role": "Vice President",
             "email": "eujeal@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/eujean-lee-b2316b1bb"
+            "linkedin": "https://www.linkedin.com/in/eujean-lee-b2316b1bb",
+            "picture": "../../images/officers/profile-pic/이유진.jpeg"
         },
         {
             "name": "김소정",
             "english_name": "Janis Kim",
             "role": "Senior Advisor",
             "email": "janisk2@uw.edu",
-            "linkedin": "none"
+            "linkedin": "none",
+            "picture": "../../images/officers/profile-pic/김소정.JPG"
         },
         {
             "name": "김연수",
             "english_name": "Anna Kim",
             "role": "Secretary",
             "email": "yskim01@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0"
+            "linkedin": "https://www.linkedin.com/in/anna-kim-0419251b0",
+            "picture": "../../images/officers/profile-pic/김연수.jpeg"
         }
     ]
 }

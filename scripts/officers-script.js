@@ -30,7 +30,11 @@ function load_members(officers_list, jsonfile, attribute) {
         .then((data) => {
             for (let i = 0; i < Object.keys(data.officers).length; i++) {
                 let officer = document.createElement('div');
-                officer.setAttribute("class", attribute);
+                if (data.officers[i].role == "Team Director") {
+                    officer.setAttribute("class", "officer-teamlead");
+                } else {
+                    officer.setAttribute("class", attribute);
+                }
 
                 let name = document.createElement('div'); 
                 name.innerHTML += `<b>${data.officers[i].name}</b>`;
@@ -43,6 +47,18 @@ function load_members(officers_list, jsonfile, attribute) {
                 let role = document.createElement('div');
                 role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
                 role.setAttribute("class", "officer-text");
+
+
+                if (data.officers[i].picture) {
+                    let pictureContainer = document.createElement('div'); 
+                    pictureContainer.setAttribute("class", "picture-container");
+                    let picture_file = data.officers[i].picture;
+                    let picture = document.createElement('img');
+                    picture.setAttribute("src", picture_file);
+                    picture.setAttribute("class", "picture-settings");
+                    pictureContainer.appendChild(picture);
+                    officer.appendChild(pictureContainer);
+                }
 
                 officer.appendChild(name);
                 officer.appendChild(english_name);

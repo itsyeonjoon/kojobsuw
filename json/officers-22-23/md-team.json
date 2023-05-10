@@ -8,7 +8,8 @@
             "english_name": "Eujean Lee",
             "role": "Team Director",
             "email": "eujeal@uw.edu",
-            "linkedin": "https://www.linkedin.com/in/eujean-lee-b2316b1bb"
+            "linkedin": "https://www.linkedin.com/in/eujean-lee-b2316b1bb",
+            "picture": "../../images/officers/profile-pic/이유진.jpeg"
         },
         {
             "name": "강다은",
@@ -50,12 +51,12 @@
             "english_name": "Yugyeong Her",
             "role": "Video Editor",
             "email": "yh0215@uw.edu",
-            "linkedin": "none"
+            "linkedin": "https://www.linkedin.com/in/yugyeongh/"
         },
         {
             "name": "강준하",
             "english_name": "Joonha Kang",
-            "role": "",
+            "role": "Photographer",
             "email": "kangj21@uw.edu",
             "linkedin": "https://www.linkedin.com/in/joonha-kang-213214226/"
         }

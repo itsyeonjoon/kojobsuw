@@ -35,16 +35,31 @@ main {
     font-size: 20px;
     width: 33%; 
     margin-bottom: 32px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .officer-representatives {
     font-size: 20px;
     width: 50%; 
     margin-bottom: 32px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.officer-teamlead {
+    font-size: 20px;
+    width: 100%; 
+    margin-bottom: 32px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .officers-list {
-    margin-left: 12%; 
+    /* margin-left: 12%;  */
     margin-top: 36px; 
     display: flex;
     flex-wrap: wrap;
@@ -61,6 +76,20 @@ main {
     font-size: 42px; 
 }
 
+.picture-container {
+    width: 260px; /* Set the desired width */
+    height: 300px; /* Set the desired height */
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.picture-container img {
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover; /* Crop the image to cover the container */
+    object-position: center center; /* Position the image at the center */
+}
+
 section {
     margin-bottom: 60px; 
 }
@@ -68,6 +97,7 @@ section {
 .section-title {
     font-size: 32px;
     font-weight: bold; 
+    text-align: center;
 }
 
 .white {
@@ -88,15 +118,31 @@ section {
     .officer-text {
         overflow-wrap:break-word;
     }
+
+    .picture-container {
+        width: 208px; /* Set the desired width */
+        height: 240px; /* Set the desired height */
+    }
+}
+
+@media (max-width: 580px) {
+    .picture-container {
+        width: 142px; /* Set the desired width */
+        height: 165px; /* Set the desired height */
+    }
 }
 
 @media (max-width: 400px) {
     .officer {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .officer-representatives {
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .officer-teamlead {
+        font-size: 10px;
     }
 
     .officer-text {

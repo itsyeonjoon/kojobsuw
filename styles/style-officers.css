@@ -118,15 +118,31 @@ section {
     .officer-text {
         overflow-wrap:break-word;
     }
+
+    .picture-container {
+        width: 208px; /* Set the desired width */
+        height: 240px; /* Set the desired height */
+    }
+}
+
+@media (max-width: 580px) {
+    .picture-container {
+        width: 142px; /* Set the desired width */
+        height: 165px; /* Set the desired height */
+    }
 }
 
 @media (max-width: 400px) {
     .officer {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .officer-representatives {
-        font-size: 12px;
+        font-size: 10px;
+    }
+
+    .officer-teamlead {
+        font-size: 10px;
     }
 
     .officer-text {

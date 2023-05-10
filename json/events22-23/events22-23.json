@@ -3,6 +3,38 @@
     "year": "2022-23",
     "events": [
         {
+            "name": "Study Session",
+            "mainImg": "../../images/2022-2023/study_session/study_session_logo.jpg",
+            "subImg1": "../../images/2022-2023/study_session/study_session_1.jpg",
+            "subImg2": "../../images/2022-2023/study_session/study_session_2.jpeg",
+            "text": "Hosted study session for KOJOBS members to study together for the exam, while making connections with each other.",
+            "date": "04/25/23"    
+        },
+        {
+            "name": "Career Workshop",
+            "mainImg": "../../images/2022-2023/career_workshop/career_workshop_logo.jpg",
+            "subImg1": "../../images/2022-2023/career_workshop/career_workshop_1.jpg",
+            "subImg2": "../../images/2022-2023/career_workshop/career_workshop_2.jpeg",
+            "text": "Hosted a career workshop featuring past SK HR Recruiting Team Manager and Indeed UX Designer. The workshop aimed to provide students with insights into the job market and tips for securing employment.",
+            "date": "04/22/23"    
+        },
+        {
+            "name": "KOJOBS Golden Bell",
+            "mainImg": "../../images/2022-2023/golden_bell/golden_bell_logo.png",
+            "subImg1": "../../images/2022-2023/golden_bell/golden_bell_1.jpg",
+            "subImg2": "../../images/2022-2023/golden_bell/golden_bell_2.jpg",
+            "text": "The Golden Bell event, sponsored by HeyKoreans was held by KOJOBS, where the event was a quiz show in which participants had the opportunity to win prizes for correctly answering questions.",
+            "date": "04/07/23"    
+        },
+        {
+            "name": "KOJOBS Picnic",
+            "mainImg": "../../images/2022-2023/picnic/picnic_logo.jpg",
+            "subImg1": "../../images/2022-2023/picnic/picnic_1.jpg",
+            "subImg2": "../../images/2022-2023/picnic/picnic_2.jpg",
+            "text": "KOJOBS held a picnic to encourage members to make new friends. The event took place in a park where members shared food and drinks while mingling, to make many connections with each other.",
+            "date": "03/18/23"    
+        },
+        {
             "name": "KoKoBowl",
             "mainImg": "../../images/2022-2023/kokobowl/kokobowl_IG.jpg",
             "subImg1": "../../images/2022-2023/kokobowl/kokobowl_sub_1.jpg",

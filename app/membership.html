@@ -23,14 +23,28 @@
 <body>
    <div id="header"></div>
 
-   <div class="page-title headings white">
+   <!-- <div class="page-title headings white">
        Membership
-   </div>
+   </div> -->
 
-   <img src="../images/background/Membership_image.png" alt="KOJOBS Membership image" style="width:100%;">
+
+   <picture>
+      <source media="(max-width: 900px)" srcset="
+      ../images/membership/Membership_image_mobile.png">
+
+      <source srcset="
+      ../images/membership/Membership_image.png">
+
+      <img src="../images/membership/Membership_image.png" alt="KOJOBS Membership image" style="width:100%;">
+   </picture>
 
    <div class="centered">
       <div class="title">Join Now</div>
+
+      <div class="gold_bar_centered"> 
+         <div class="gold_bar"></div>
+      </div>
+
       <div class="paragraph">
          Enjoy the rewards of being a member!
       </div>
@@ -41,7 +55,7 @@
          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUM2QjEK5QEnmjbjgQhUgVk7Yq_N-HVD3osE2mKb8BtsKTMQ/viewform" type="button" class="btn btn-secondary btn-lg">Click Here!</a>
          <div class="letter">OR</div>
          <div class="barcode">
-            <img src="../images/resource/Membership barcode.png" width="200">
+            <img src="../images/Membership/membersip_barcode.png" width="200">
          </div>
       </div>
 

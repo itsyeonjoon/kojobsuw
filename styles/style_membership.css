@@ -19,7 +19,7 @@
 
 .title {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     color: rgba(0, 0, 0, 1);
     font-size: 60px;
     font-weight: 600;
@@ -28,7 +28,7 @@
 }
 
 .paragraph {
-    color: rgba(0, 0, 0, 1);
+    color: rgb(54, 54, 54);
     padding: 0% 10%;
     font-size: 29.5px;
     text-align: center;
@@ -59,10 +59,13 @@
   } */
 
 .letter {
-    width: 34%;
+  color: rgb(90, 90, 90);
+  padding-top: 3rem;
+  padding-bottom: 3rem;  
+  width: 34%;
     text-align: center;
     float:center;
-    font-size: 3vw;
+    font-size: 50px;
     font-family: "Encode Sans", sans-serif;
     display: inline;   
   }
@@ -70,22 +73,75 @@
 .barcode {
     float:center;
     text-align: center;
+    display: flex;
     width: 15%;
   }
 
   .centerDiv
   {
+    padding-top: 2rem;
     justify-content: center;
     align-items: center;
+    text-align: center;
     display: flex;
-    width: 90%; 
+    width: 100%; 
     height:200px;
     margin: 0 auto;
   }
 
 
-  @media all and (max-width: 414px) {
+  .gold_bar {
+    margin-bottom: 2rem;
+    width: 6.7rem;
+    height: 0.65rem;
+    background-color: #85754d;
+    flex-shrink: 0;
+    display: flex;
+  }
+
+  .gold_bar_centered {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+  }
+
+
+
+  /* @media all and (max-width: 414px) {
     .centered {
       padding: 3% 1%;
     }
+  } */
+
+  
+
+
+  @media screen and (max-width: 900px) {
+    .centerDiv
+    {
+      padding-top: 13rem;
+      padding-bottom: 12rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .barcode {
+      width: auto;
+    }
+
+    .centered {
+      padding: 7% 0%;
+    }
+    
+    .letter {
+        font-size: 40px; 
+    }
+
+    .paragraph {
+      color: rgb(54, 54, 54);
+      padding: 0% 10%;
+      font-size: 28px;
+    }
+
   }

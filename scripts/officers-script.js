@@ -4,6 +4,7 @@
 */
 
 document.addEventListener("DOMContentLoaded", function() {
+    load_representatives_23_24();
     load_representatives();
     load_hrs_team();
     load_pm_team();
@@ -84,6 +85,20 @@ function load_members(officers_list, jsonfile, attribute) {
             }
         })
 } 
+
+/* 
+* reads member data within representatives json file for 2023-24 year
+* and loads them to /officers.html page within the div with id="representative-officers".
+* 
+* parameters: none
+* return value: none
+*/
+function load_representatives_23_24() {
+    let officers_list = document.getElementById("representative-officers-23-24");
+    let jsonfile = '../json/officers-23-24/representatives.json';
+      
+    load_members(officers_list, jsonfile, "officer-representatives");
+}
 
 /* 
 * reads member data within representatives json file for 2022-23 year

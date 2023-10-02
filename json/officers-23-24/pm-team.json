@@ -1,0 +1,35 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Planning & Management Team",
+    "year": "2023-24",
+    "officers": [
+        {
+            "name": "허유경",
+            "english_name": "Yugyeong Her",
+            "role": "Team Director",
+            "email": "yh0215@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/yugyeongh/",
+            "picture": "../../images/officers/2023-24/허유경.jpg"
+        },
+        {
+            "name": "신은지",
+            "english_name": "Eunji Shin",
+            "role": "Team Director",
+            "email": "eunjiii@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/eunji-shin-660809260/",
+            "picture": "../../images/officers/2023-24/신은지.jpg"
+        },
+        {
+            "name": "조민형",
+            "english_name": "Eric Cho",
+            "email": "choeric@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "이윤서",
+            "english_name": "Lucas Lee",
+            "email": "yunseol1@uw.edu",
+            "linkedin": "none"
+        }
+    ]
+}

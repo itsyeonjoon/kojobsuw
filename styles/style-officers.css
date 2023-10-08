@@ -6,9 +6,21 @@
     --light-gold: #B7A57A; 
 }
 
+#officers-23-24 {
+    display: block;
+}
+
+#officers-22-23 {
+    display: none;
+}
+
 /* to remove margin in corners of website */
 body {
     margin:0px;
+}
+
+.add-space {
+    margin-bottom: 54px;
 }
 
 /* Centered text */
@@ -34,6 +46,15 @@ main {
 .officer {
     font-size: 20px;
     width: 33%; 
+    margin-bottom: 32px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.officer-23-24 {
+    font-size: 20px;
+    width: 50%; 
     margin-bottom: 32px; 
     display: flex;
     flex-direction: column;
@@ -102,6 +123,22 @@ section {
 
 .white {
     color: var(--white); 
+}
+
+.year {
+    text-align: center;
+    color: var(--uw-purple);
+}
+
+.year-button {
+    background-color: var(--uw-purple);
+    color: var(--white);
+
+}
+
+.year-division {
+    background-color: var(--light-gold);
+    height: 2px;
 }
 
 @media (max-width: 820px) {

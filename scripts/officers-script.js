@@ -1,10 +1,17 @@
- /*
+let appear_23_24 = true;
+let appear_22_23 = false;
+
+/*
 * The purpose of doing in this approach is to automate the process of 
 * writing all KOJOBS officers in simpler and efficient manner. 
 */
 
 document.addEventListener("DOMContentLoaded", function() {
     load_representatives_23_24();
+    load_hrs_team_23_24();
+    load_pm_team_23_24();
+    load_prd_team_23_24();
+    load_md_team_23_24();
     load_representatives();
     load_hrs_team();
     load_pm_team();
@@ -46,8 +53,10 @@ function load_members(officers_list, jsonfile, attribute) {
                 english_name.setAttribute("class", "officer-text");
 
                 let role = document.createElement('div');
-                role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
-                role.setAttribute("class", "officer-text");
+                if (data.officers[i].role) {
+                    role.innerHTML += `Role: <b>${data.officers[i].role}</b>`;
+                    role.setAttribute("class", "officer-text");     
+                }
 
 
                 if (data.officers[i].picture) {
@@ -99,6 +108,63 @@ function load_representatives_23_24() {
       
     load_members(officers_list, jsonfile, "officer-representatives");
 }
+
+/* 
+* reads member data within hrs-team json file for 2023-24 year
+* and loads them to /officers.html page within the div with id="hrs-officers".
+* 
+* parameters: none
+* return value: none
+*/
+function load_hrs_team_23_24() {
+    let officers_list = document.getElementById("hrs-officers-23-24");
+    let jsonfile = '../json/officers-23-24/hrs-team.json';
+      
+    load_members(officers_list, jsonfile, "officer-23-24");
+}
+
+/* 
+* reads member data within pm-team json file for 2023-24 year
+* and loads them to /officers.html page within the div with id="pm-officers".
+* 
+* parameters: none
+* return value: none
+*/
+function load_pm_team_23_24() {
+    let officers_list = document.getElementById("pm-officers-23-24");
+    let jsonfile = '../json/officers-23-24/pm-team.json';
+      
+    load_members(officers_list, jsonfile, "officer-23-24");
+}
+
+/* 
+* reads member data within prd-team json file for 2023-24 year
+* and loads them to /officers.html page within the div with id="prd-officers".
+* 
+* parameters: none
+* return value: none
+*/
+function load_prd_team_23_24() {
+    let officers_list = document.getElementById("prd-officers-23-24");
+    let jsonfile = '../json/officers-23-24/prd-team.json';
+      
+    load_members(officers_list, jsonfile, "officer-23-24");
+}
+
+/* 
+* reads member data within md-team json file for 2023-24 year
+* and loads them to /officers.html page within the div with id="md-officers".
+* 
+* parameters: none
+* return value: none
+*/
+function load_md_team_23_24() {
+    let officers_list = document.getElementById("md-officers-23-24");
+    let jsonfile = '../json/officers-23-24/md-team.json';
+      
+    load_members(officers_list, jsonfile, "officer-23-24");
+}
+
 
 /* 
 * reads member data within representatives json file for 2022-23 year
@@ -168,4 +234,32 @@ function load_md_team() {
     let jsonfile = '../json/officers-22-23/md-team.json';
       
     load_members(officers_list, jsonfile, "officer");
+}
+
+function click_22_23() {
+    let officers = document.getElementById("officers-22-23");
+    let button = document.getElementById("button-22-23");
+    if (appear_22_23) {
+        officers.style.display = "none";
+        button.innerHTML = "Expand All";
+    } else {
+        officers.style.display = "block";
+        button.innerHTML = "Collapse All";
+    }
+
+    appear_22_23 = !appear_22_23;
+}
+
+function click_23_24() {
+    let officers = document.getElementById("officers-23-24");
+    let button = document.getElementById("button-23-24");
+    if (appear_23_24) {
+        officers.style.display = "none";
+        button.innerHTML = "Expand All";
+    } else {
+        officers.style.display = "block";
+        button.innerHTML = "Collapse All";
+    }
+
+    appear_23_24 = !appear_23_24;
 }

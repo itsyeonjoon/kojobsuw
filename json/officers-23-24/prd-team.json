@@ -1,0 +1,39 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Public Relations & Development Team",
+    "year": "2023-24",
+    "officers": [
+        {
+            "name": "김건희",
+            "english_name": "Geonhee Kim",
+            "role": "Team Director",
+            "email": "gkim3@uw.edu",
+            "linkedin": "none",
+            "picture": "../../images/officers/2023-24/김건희.jpg"
+        },
+        {
+            "name": "여해인",
+            "english_name": "Haein Yeo",
+            "email": "hy87@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "김세은",
+            "english_name": "",
+            "email": "sk13@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "서세민",
+            "english_name": "Stacey Seo",
+            "email": "stacey45@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "정연준",
+            "english_name": "Yeon Joon Jung",
+            "email": "yjung19@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/yj-jung/"
+        }
+    ]
+}

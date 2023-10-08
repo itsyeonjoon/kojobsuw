@@ -1,0 +1,32 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Marketing & Design Team",
+    "year": "2023-24",
+    "officers": [
+        {
+            "name": "이선영",
+            "english_name": "Seonyeong Lee",
+            "role": "Team Director",
+            "email": "seonyl@uw.edu",
+            "picture": "../../images/officers/2023-24/이선영.jpg"
+        },
+        {
+            "name": "양정윤",
+            "english_name": "Jenny Yang",
+            "email": "jyy01@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "강준하",
+            "english_name": "Joonha Kang",
+            "email": "kangj21@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/joonha-kang-213214226/"
+        },
+        {
+            "name": "조유빈",
+            "english_name": "",
+            "email": "yubinc@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/yubin-cho-b2880417a/"
+        }
+    ]
+}

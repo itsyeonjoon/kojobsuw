@@ -1,0 +1,27 @@
+{
+    "rso": "KOJOBS UW",
+    "team": "Human Resources & Statistics Team",
+    "year": "2023-24",
+    "officers": [
+        {
+            "name": "박성희",
+            "english_name": "Sunghee Park",
+            "role": "Team Director",
+            "email": "sxnghp@uw.edu",
+            "linkedin": "none",
+            "picture": "../../images/officers/2023-24/박성희.jpg"
+        },
+        {
+            "name": "이진우",
+            "english_name": "Adam Lee",
+            "email": "jw1122@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "김수아",
+            "english_name": "Suah Kim",
+            "email": "sk258@uw.edu",
+            "linkedin": "none"
+        }
+    ]
+}

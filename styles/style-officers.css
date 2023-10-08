@@ -152,6 +152,10 @@ section {
         font-size: 18px;
     }
 
+    .officer-23-24 {
+        font-size: 18px;
+    }
+
     .officer-text {
         overflow-wrap:break-word;
     }
@@ -179,6 +183,10 @@ section {
     }
 
     .officer-teamlead {
+        font-size: 10px;
+    }
+
+    .officer-23-24 {
         font-size: 10px;
     }
 

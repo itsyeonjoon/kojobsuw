@@ -12,16 +12,28 @@
             "picture": "../../images/officers/2023-24/박성희.jpg"
         },
         {
-            "name": "이진우",
-            "english_name": "Adam Lee",
-            "email": "jw1122@uw.edu",
-            "linkedin": "none"
-        },
-        {
             "name": "김수아",
             "english_name": "Suah Kim",
             "email": "sk258@uw.edu",
             "linkedin": "none"
+        },
+        {
+            "name": "박준희",
+            "english_name": "Junhee Park",
+            "email": "junhee93@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "백경훈",
+            "english_name": "Shane Paek",
+            "email": "gyungp@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "황혜인",
+            "english_name": "Hyein Hwang",
+            "email": "hyeinh@uw.edu",
+            "linkedin": ""
         }
     ]
 }

@@ -12,6 +12,36 @@
             "picture": "../../images/officers/2023-24/허유경.jpg"
         },
         {
+            "name": "신수빈",
+            "english_name": "Gloria Shin",
+            "email": "glorias@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "김동준",
+            "english_name": "DJ Kim",
+            "email": "djk0316@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "장세범",
+            "english_name": "Sebeom Jang",
+            "email": "sjang4@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "권예진",
+            "english_name": "Yejin Kwon",
+            "email": "yejin01@uw.edu",
+            "linkedin": "none"  
+        },
+        {
+            "name": "박지원",
+            "english_name": "Ji-Won Park",
+            "email": "jiwp326@uw.edu",
+            "linkedin": "none"
+        },
+        {
             "name": "신은지",
             "english_name": "Eunji Shin",
             "role": "Team Director",

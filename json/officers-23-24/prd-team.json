@@ -30,10 +30,46 @@
             "linkedin": "none"
         },
         {
+            "name": "박시원",
+            "english_name": "Siwon Park",
+            "email": "c1park@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/siwon-park-818a0b258"
+        },
+        {
+            "name": "류민규",
+            "english_name": "MinKyu Ryu",
+            "email": "mryu8@uw.edu",
+            "linkedin": "none"
+        },
+        {
+            "name": "이제하",
+            "english_name": "Jeha Lee",
+            "email": "jeha1202@uw.edu",
+            "linkedin": "none"
+        },
+        {
             "name": "정연준",
             "english_name": "Yeon Joon Jung",
             "email": "yjung19@uw.edu",
             "linkedin": "https://www.linkedin.com/in/yj-jung/"
+        },
+        {
+            "name": "이진우",
+            "english_name": "Adam Lee",
+            "email": "jw1122@uw.edu",
+            "linkedin": "none"  
+        },
+        {
+            "name": "위희은",
+            "english_name": "Hannah Wee",
+            "email": "heew@uw.edu",
+            "linkedin": "https://www.linkedin.com/in/hee-eun-wee-592b62215/"
+        },
+        {
+            "name": "박병욱",
+            "english_name": "Bill Park",
+            "email": "b2park17@uw.edu",
+            "linkedin": "www.linkedin.com/in/byungwookpark"
         }
     ]
 }

@@ -4,6 +4,7 @@
     --kojobs-gray: #505050; 
     --gold: #A49E87; 
     --light-gold: #B7A57A; 
+    --kojobs-green: #95A7A0;
 }
 
 .headings {
@@ -13,7 +14,7 @@
 }
 
 .page-title {
-    background-color: var(--kojobs-gray); 
+    background-color: var(--kojobs-green); 
     padding-top: 42px;
     padding-bottom: 42px;
     padding-left: 12%;

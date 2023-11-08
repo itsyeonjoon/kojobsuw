@@ -4,7 +4,6 @@
     --kojobs-gray: #505050; 
     --gold: #A49E87; 
     --light-gold: #B7A57A; 
-    --kojobs-green: #95A7A0;
 }
 
 #officers-23-24 {
@@ -93,7 +92,7 @@ main {
 }
 
 .page-title {
-    background-color: var(--kojobs-green); 
+    background-color: var(--kojobs-gray); 
     padding: 42px 72px; 
     font-size: 42px; 
 }

@@ -1,0 +1,14 @@
+{
+    "rso": "KOJOBS UW",
+    "year": "2023-24",
+    "events": [
+        {
+            "name": "General Meeting",
+            "mainImg": "../../images/2023-2024/gen_meeting/general_meeting_poster.png",
+            "subImg1": "../../images/2023-2024/gen_meeting/general_meeting_1.jpg",
+            "subImg2": "../../images/2023-2024/gen_meeting/general_meeting_2.jpg",
+            "text": "Introduction to our student organization at the beginning of the school year. Presented our visions and goals, upcoming events, organizational structure, and officer members.",
+            "date": "10/09/23"    
+        }
+    ]
+}

@@ -6,6 +6,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     load_2021_2022_events();
     load_2022_2023_events();
+    load_2023_2024_events();
 });
 
 
@@ -108,6 +109,13 @@ function load_2021_2022_events() {
 function load_2022_2023_events() {
     let events_list = document.getElementById("22-23-events");
     let jsonfile = '../json/events22-23/events22-23.json';
+      
+    load_events(events_list, jsonfile, "row event_list");
+}
+
+function load_2023_2024_events() {
+    let events_list = document.getElementById("23-24-events");
+    let jsonfile = '../json/events23-24/events23-24.json';
       
     load_events(events_list, jsonfile, "row event_list");
 }

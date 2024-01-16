@@ -92,10 +92,10 @@
   align-items: center;
   text-align: center;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.2575;
   color: #635531;
-  font-family: Uni Sans, 'Source Sans Pro';
+  font-family: Open Sans, 'Source Sans Pro';
 }
 
 .event_desctiption {

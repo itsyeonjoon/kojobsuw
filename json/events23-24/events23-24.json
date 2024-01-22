@@ -3,6 +3,14 @@
     "year": "2023-24",
     "events": [
         {
+            "name": "KO:NNECT 2023",
+            "mainImg": "../../images/2023-2024/konnect/konnect_poster.png",
+            "subImg1": "../../images/2023-2024/konnect/konnect_picture1.jpeg",
+            "subImg2": "../../images/2023-2024/konnect/konnect_picture2.jpeg",
+            "text": "KO:NNECT is a mentoring program that matches pre-major underclassmen with upperclassmen in their major. Professionally organized event to assist students with academic and career guidance while allowing to network with peer students in the same field.",
+            "date": "11/17/23"    
+        },
+        {
             "name": "General Meeting",
             "mainImg": "../../images/2023-2024/gen_meeting/general_meeting_poster.png",
             "subImg1": "../../images/2023-2024/gen_meeting/general_meeting_1.jpg",

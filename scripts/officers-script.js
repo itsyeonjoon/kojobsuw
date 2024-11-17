@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 * return value: none
 */
 function load_members(officers_list, jsonfile, attribute) {
+    console.log("test")
     fetch(jsonfile)
         .then((response) => {
             return response.json();
